@@ -19,10 +19,24 @@ body {
 
 /* Hero section */
 .hero {
-  background: linear-gradient(135deg, #28313b 0%, #485461 100%);
-  color: white;
+  position: relative;
+  color: black;
   text-align: center;
   padding: 3rem 1rem;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("../assets/wfc-town.png");
+  background-size: cover;
+  background-position: center;
+  filter: blur(3px);
+  z-index: -1;
 }
 
 .hero .title {
