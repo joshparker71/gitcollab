@@ -44,6 +44,11 @@ body {
   font-weight: bold;
 }
 
+.outline {
+  text-shadow: -1px -1px 0 #ffffff, /* Top-left */ 1px -1px 0 #ffffff,
+    /* Top-right */ -1px 1px 0 #ffffff, /* Bottom-left */ 1px 1px 0 #ffffff; /* Bottom-right */
+}
+
 .hero .subtitle {
   font-size: 1.2rem;
   margin-top: 1rem;
