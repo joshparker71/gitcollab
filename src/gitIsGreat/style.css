@@ -6,3 +6,17 @@ nav {
 h1 {
     margin: 10px;
 }
+
+.explanation {
+    background-color: #eee;
+    border: black solid 2px;
+    color: black;
+    margin: 5px 10px;
+    padding: 5px;
+}
+
+.explanation:hover {
+    background-color: black;
+    border: solid 2px #eee;
+    color: #eee;
+}
